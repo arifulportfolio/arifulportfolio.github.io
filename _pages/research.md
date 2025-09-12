@@ -1,9 +1,7 @@
 ---
-title: "Research"
+title: "Research Experience"
 permalink: /research/
 ---
-
-## Research Experience
 
 ### **Undergraduate Thesis**  
 **March 2024 – Feb. 2025**  
