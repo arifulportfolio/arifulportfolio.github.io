@@ -5,3 +5,6 @@
 layout: home
 author_profile: true
 ---
+I am a **prospective PhD student** from BUET. My research interests include Computational Fluid Dynamics, Structural Analysis, Renewable Energy, and Machine Learning.
+
+## Research
