@@ -6,7 +6,7 @@ permalink: /resume/
 
 ### **Academic Credentials**
 **Bangladesh University of Engineering and Technology (BUET), Dhaka, Bangladesh**  
-*Bachelor of Science in Naval Architecture and Marine Engineering*, Expected March 2025  
+*Bachelor of Science in Naval Architecture and Marine Engineering*, March 2025  
 **CGPA**: 3.68/4.00 (Last term GPA: 3.84)
 
 ---
@@ -44,7 +44,7 @@ As a researcher of **The Draft Lab**. [Website](https://thedraftlab.github.io/)
 
 #### **Machine Learning-Based Heat Sink Optimization**  
 **Ongoing**  
-**Title**: *Optimization of Air-Cooled Cross fin Heat Sink using Machine Learning*  
+**Title**: *Optimization of Air-Cooled Cross-fin Heat Sink using Machine Learning*  
 
 - **CFD simulation** of **Cross fin Heat Sink** using **ANSYS Fluent**.  
 - Maximized **heat transfer coefficient** while ensuring operational efficiency within practical flow rates.  
