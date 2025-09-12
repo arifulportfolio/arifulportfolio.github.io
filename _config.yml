@@ -85,6 +85,9 @@ footer:
   social_links: []  # Remove any social links
 
 defaults:
+  text: ""  # Remove the footer text
+  copyright: ""  # Remove the copyright text
+  social_links: []  # Remove any social links
 
 
   # _pages
