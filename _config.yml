@@ -49,7 +49,7 @@ include:
 #   - vendor/ruby/
 head:
   custom_css:
-    - "/assets/custom.css"
+    - "assets/custom.css"
 
 
 # Plugins (previously gems:)
