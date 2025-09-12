@@ -79,23 +79,13 @@ author:
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Md-Ariful-Islam-55"
 
-
-footer:
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/md-ariful-islam01/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://arifulportfolio.github.io" 
-    - label: "ResearchGate"
-      icon: "fab fa-fw fa-researchgate"
-      url: "https://www.researchgate.net/profile/Md-Ariful-Islam-55"
-defaults:
 footer:
   text: ""  # Remove the footer text
   copyright: ""  # Remove the copyright text
   social_links: []  # Remove any social links
+
+defaults:
+
 
   # _pages
   - scope:
