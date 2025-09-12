@@ -14,3 +14,4 @@ Outside of academics, I’m passionate about cricket and badminton, having capta
 These hobbies help me stay balanced and motivated, complementing my academic and professional pursuits.
 
 
+
