@@ -74,9 +74,7 @@ author:
     - label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Md-Ariful-Islam-55"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/arifulislam"
+
 
 footer:
   links:
@@ -91,13 +89,6 @@ footer:
       url: "https://www.researchgate.net/profile/Md-Ariful-Islam-55"
 defaults:
 
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
 
 category_archive:
   type: liquid
