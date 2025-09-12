@@ -1,28 +1,22 @@
-/* Apply Times New Roman to the whole website */
+/* Apply Times New Roman font to the entire website */
 body {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 16px; /* Adjust the body text size to your preference */
+    font-size: 12px; /* Set body font size to 12px */
 }
 
-/* Headings */
+/* Adjust headings to keep a clean look */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
-/* Additional styling for sections (Margins, line spacing, etc.) */
-section, .page-content {
-    margin: 20px;
-    line-height: 1.5;
-}
-
-/* Adjusting paragraph spacing */
+/* Specific adjustments to paragraph spacing and line height */
 p {
-    margin-bottom: 15px;
+    line-height: 1.6; /* Make text more readable with proper spacing */
+    margin-bottom: 10px; /* Add space after each paragraph */
 }
 
-/* Styling for the resume's title */
-h1 {
-    text-align: center;
-    font-size: 36px; /* Increase font size for the resume title */
-    margin-bottom: 20px;
+/* Add some margin to the page content for spacing */
+.page-content {
+    margin: 20px;
 }
