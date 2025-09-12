@@ -49,14 +49,6 @@ include:
 #   - vendor/ruby/
 
 
-# Enable sidebar
-sidebar:
-  - about: true
-  - research: true
-  - publications: true
-
-# Other necessary settings like plugins, social links, etc.
-
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -96,17 +88,7 @@ footer:
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Md-Ariful-Islam-55"
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+
   # _pages
   - scope:
       path: "_pages"
