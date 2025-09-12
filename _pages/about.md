@@ -5,7 +5,7 @@ title: "About Me"
 
 Hello! I’m Md. Ariful Islam, a graduate in Naval Architecture & Marine Engineering from the Faculty of Mechanical Engineering at Bangladesh University of Engineering and Technology (BUET).
 
-My primary research interests lie in machine learning, computational fluid dynamics (CFD), heat transfer, renewable energy, and optimization. For my thesis, which was funded by the Research and Innovation Center for Science and Technology (RISE), I focused on optimizing the placement of offshore wind turbines using machine learning techniques. Additionally, I have worked on data-driven ship design, automating the prediction of hydrostatic parameters using MATLAB and Maxsurf. Currently, I am working on simulating cross-fin heat sinks to optimize heat transfer efficiency using ANSYS Fluent.
+My primary research interests lie in machine learning, computational fluid dynamics (CFD), heat transfer, renewable energy, and optimization. In my undergraduate thesis, which was funded by the Research and Innovation Center for Science and Technology (RISE), I focused on optimizing the placement of offshore wind turbines using machine learning techniques. Additionally, I have worked on data-driven ship design, automating the prediction of hydrostatic parameters using MATLAB and Maxsurf. Currently, I am working on simulating cross-fin heat sinks to optimize heat transfer efficiency using ANSYS Fluent.
 
 I possess a solid foundation in thermal-fluid sciences and have hands-on expertise in tools such as ANSYS Fluent, Abaqus CAE, Maxsurf, AutoCAD, Rhinoceros, MATLAB, Python, C++, and Fortran.
 
