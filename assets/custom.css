@@ -1,7 +1,7 @@
 /* Apply Times New Roman font to the entire website */
 body {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 12px; /* Set body font size to 12px */
+    font-size: 8px; /* Set body font size to 12px */
 }
 
 /* Adjust headings to keep a clean look */
