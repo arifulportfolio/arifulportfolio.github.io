@@ -2,7 +2,7 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: About Me
+layout: home
 author_profile: true
 ---
 Hello! I’m Md. Ariful Islam, a graduate in Naval Architecture & Marine Engineering from the Faculty of Mechanical Engineering at Bangladesh University of Engineering and Technology (BUET), where I earned a CGPA of 3.68/4.00.
@@ -15,4 +15,3 @@ Outside of academics, I’m passionate about cricket and badminton, having capta
 
 These hobbies help me stay balanced and motivated, complementing my academic and professional pursuits.
 
-## Research
