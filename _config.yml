@@ -47,12 +47,7 @@ include:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-# Site settings
-title: "Md. Ariful Islam"
-email: "arif.buet19@gmail.com"
-description: "Prospective PhD student specializing in Computational Fluid Dynamics, Machine Learning, and Renewable Energy."
-theme: "minimal-mistakes"
-remote_theme: "mmistakes/minimal-mistakes"
+
 
 # Enable sidebar
 sidebar:
