@@ -3,15 +3,15 @@ permalink: /about/
 title: "About Me"
 ---
 
-Hello! I’m Md. Ariful Islam, a graduate in Naval Architecture & Marine Engineering from the Faculty of Mechanical Engineering at Bangladesh University of Engineering and Technology (BUET), where I earned a CGPA of 3.68/4.00.
+Hello! I’m Md. Ariful Islam, a graduate in Naval Architecture & Marine Engineering from the Faculty of Mechanical Engineering at Bangladesh University of Engineering and Technology (BUET).
 
-My research interests include machine learning, computational fluid dynamics (CFD), heat transfer, renewable energy, and optimization. For my thesis, funded by the Research and Innovation Center for Science and Technology (RISE), I optimized offshore wind turbine placement using machine learning. I’ve also worked on data-driven ship design, automating hydrostatic parameter predictions with MATLAB and Maxsurf, and I’m currently simulating cross-fin heat sinks using ANSYS Fluent.
+My primary research interests lie in machine learning, computational fluid dynamics (CFD), heat transfer, renewable energy, and optimization. For my thesis, which was funded by the Research and Innovation Center for Science and Technology (RISE), I focused on optimizing the placement of offshore wind turbines using machine learning techniques. Additionally, I have worked on data-driven ship design, automating the prediction of hydrostatic parameters using MATLAB and Maxsurf. Currently, I am working on simulating cross-fin heat sinks to optimize heat transfer efficiency using ANSYS Fluent.
 
-I have a strong theoretical foundation in thermal-fluid sciences, with expertise in ANSYS Fluent, Abaqus CAE, Maxsurf, AutoCAD, Rhinoceros, MATLAB, Python, C++, and Fortran.
+I possess a solid foundation in thermal-fluid sciences and have hands-on expertise in tools such as ANSYS Fluent, Abaqus CAE, Maxsurf, AutoCAD, Rhinoceros, MATLAB, Python, C++, and Fortran.
 
-Outside of academics, I’m passionate about cricket and badminton, having captained teams to victory in both the University Hall Cricket Tournament and the Departmental Cricket Tournament. I also enjoy mobile photography, capturing candid moments, and experimenting with perspectives. In my free time, I watch talk shows on various global topics, which broaden my perspective and keep me inspired.
+Beyond my academic pursuits, I am an avid enthusiast of cricket and badminton. I’ve had the privilege of leading teams to victories as the captain in both the University Hall Cricket Tournament and the Departmental Cricket Tournament. Additionally, I have a passion for mobile photography, where I capture candid moments and explore new perspectives. In my downtime, I enjoy watching talk shows on a range of global topics, which broadens my understanding and provides fresh inspiration.
 
-These hobbies help me stay balanced and motivated, complementing my academic and professional pursuits.
+These activities not only keep me grounded but also complement my academic and professional journey, helping me maintain balance and stay motivated.
 
 
 
