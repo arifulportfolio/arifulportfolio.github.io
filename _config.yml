@@ -89,7 +89,14 @@ footer:
       url: "https://www.researchgate.net/profile/Md-Ariful-Islam-55"
 defaults:
 
-
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      
 category_archive:
   type: liquid
   path: /categories/
