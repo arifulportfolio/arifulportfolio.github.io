@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About"
+title: "About Me"
 ---
 
 Hello! I’m Md. Ariful Islam, a graduate in Naval Architecture & Marine Engineering from the Faculty of Mechanical Engineering at Bangladesh University of Engineering and Technology (BUET), where I earned a CGPA of 3.68/4.00.
