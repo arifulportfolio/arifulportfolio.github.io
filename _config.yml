@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: "dark"
-search: true
+#search: true
 
 
 # Build settings
@@ -91,7 +91,7 @@ footer:
     - label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Md-Ariful-Islam-55"
-#defaults:
+defaults:
 
   # _pages
   - scope:
