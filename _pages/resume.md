@@ -3,13 +3,6 @@ title: "Resume"
 permalink: /resume/
 ---
 
-## Md. Ariful Islam
-**Phone**: +8801732115657  
-**Email**: [arif.buet19@gmail.com](mailto:arif.buet19@gmail.com)  
-**LinkedIn**: [linkedin.com/in/md-ariful-islam01](https://www.linkedin.com/in/md-ariful-islam01/)  
-**ResearchGate**: [researchgate.net/profile/Md-Ariful-Islam-55](https://www.researchgate.net/profile/Md-Ariful-Islam-55)  
-
----
 
 ### **Academic Credentials**
 **Bangladesh University of Engineering and Technology (BUET), Dhaka, Bangladesh**  
@@ -33,35 +26,53 @@ permalink: /resume/
 #### **Undergraduate Thesis**  
 **March 2024 – Feb. 2025**  
 Funded by **Research and Innovation Center for Science and Technology (RISE)**, BUET  
-**Title**: Optimal Placement of Wind Turbines in Offshore Windfarm using Machine Learning.  
-- Assessment of offshore wind farm potential using statistical data analysis.  
-- Optimized wind turbine placement considering wake effect.  
-- Applied Genetic Algorithm using Python for optimization.  
+**Title**: *Optimal Placement of Wind Turbines in Offshore Windfarm using Machine Learning*  
+Under the supervision of **Dr. Md. Shahidul Islam**, **NAME**, BUET
+
+- **Assessment of Offshore Wind Farm Potential** using statistical data analysis.  
+- Optimized **wind turbine placement** considering the **wake effect**.  
+- Applied **Genetic Algorithm** using **Python** for optimization.  
 
 #### **Data-Driven Ship Design**  
 **April 2025 – Aug. 2025**  
-**Title**: Data-Driven Estimation of Hydrostatic Parameters in Early-Stage Ship Design.  
-- Used Parametric Transformation of Maxsurf Modeler to generate synthetic hull.  
-- Used MATLAB for the automation of Hydrostatic Calculation of Maxsurf.  
-- Implemented Machine Learning Models to Predict Hydrostatic Parameters.  
+**Title**: *Data-Driven Estimation of Hydrostatic Parameters in Early-Stage Ship Design*  
+As a researcher of **The Draft Lab**. [Website](https://thedraftlab.github.io/)
+
+- Used **Parametric Transformation of Maxsurf Modeler** to generate synthetic hulls.  
+- Used **MATLAB** for the automation of Hydrostatic Calculations in **Maxsurf**.  
+- Implemented **Machine Learning Models** to predict hydrostatic parameters.
 
 #### **Machine Learning-Based Heat Sink Optimization**  
 **Ongoing**  
-**Title**: Optimization of Air-Cooled Cross fin Heat Sink using Machine Learning.  
-- CFD simulation of Cross fin Heat sink done using ANSYS Fluent.  
-- Maximized heat transfer coefficient while ensuring operational practicality.  
-- Created an optimized dataset and applied ANN to predict performance.  
+**Title**: *Optimization of Air-Cooled Cross fin Heat Sink using Machine Learning*  
+
+- **CFD simulation** of **Cross fin Heat Sink** using **ANSYS Fluent**.  
+- Maximized **heat transfer coefficient** while ensuring operational efficiency within practical flow rates.  
+- Created an **Optimized Dataset** and applied **Artificial Neural Networks (ANN)** to predict heat sink performance.
+
+---
+
+### **Research Grant**
+
+#### **RISE Undergraduate Student Research Grant**  
+**Bangladesh University of Engineering and Technology (BUET)**  
+Accepted ID: **S2024-01-070**
+
+- Awarded to final-year undergraduate students at BUET following a competitive proposal submission and selection process.  
+- Funded my thesis project on the optimization of wind turbine placement in offshore wind farms using machine learning.
 
 ---
 
 ### **Publications**
-1. **Md. Ariful Islam**, Shanto Naha, Jiaur Rahman, Md. Shahidul Islam. (2025). *Assessment of Offshore Wind Farm Potential Near Saint Martin, Bangladesh, Using Statistical Data Analysis*. **Asian Journal of Engineering and Technology**, 13(1), ISSN: 2321-2462. [DOI](https://doi.org/10.24203/acaphe94)
-2. **M. A. Islam**, A. Jahin, M. S. Islam, R. N. Saha, I. G. Pranta. *Data-driven estimation of hydrostatic parameters in early-stage ship design*, submitted to the **15th International Conference on Mechanical Engineering (ICME 2025)**, BUET, Dhaka, Bangladesh.
 
----
+#### **1. Md. Ariful Islam**, Shanto Naha, Jiaur Rahman, Md. Shahidul Islam. (2025).  
+**Assessment of Offshore Wind Farm Potential Near Saint Martin, Bangladesh, Using Statistical Data Analysis**  
+**Asian Journal of Engineering and Technology**, 13(1), ISSN: 2321-2462.  
+[DOI: 10.24203/acaphe94](https://doi.org/10.24203/acaphe94)  
 
-### **Research Grants**
-- **RISE Undergraduate Student Research Grant**, BUET, Accepted ID: S2024-01-070
+#### **2. M. A. Islam**, A. Jahin, M. S. Islam, R. N. Saha, I. G. Pranta.  
+**Data-driven Estimation of Hydrostatic Parameters in Early-Stage Ship Design**  
+Submitted to the **15th International Conference on Mechanical Engineering (ICME 2025)**, BUET, Dhaka, Bangladesh, Dec. 17-18, 2025.
 
 ---
 
@@ -77,6 +88,7 @@ Funded by **Research and Innovation Center for Science and Technology (RISE)**, 
 ---
 
 ### **Undergraduate Project**
+
 **Design of a 1700-Tonne Oil Tanker for Inland Route**  
 **Dhaka-Chattogram, 2023 – 2024**  
 - Worked under the supervision of Dr. Md. Mashud Karim.  
@@ -116,5 +128,5 @@ Funded by **Research and Innovation Center for Science and Technology (RISE)**, 
 ---
 
 ### **Standardized Test Scores**
-- **IELTS (Aug. 2025)**: Overall 7.0  
-  - Listening: 7.5, Reading: 8.5, Writing: 6.5, Speaking: 6.0
+- **IELTS (Aug. 2025)**: Overall **7.0**  
+  - Listening: **7.5**, Reading: **8.5**, Writing: **6.5**, Speaking: **6.0**
