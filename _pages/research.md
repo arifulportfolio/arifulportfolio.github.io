@@ -35,3 +35,14 @@ As a researcher of **The Draft Lab**. [Website](https://thedraftlab.github.io/)
 - Created an **Optimized Dataset** and applied **Artificial Neural Networks (ANN)** to predict heat sink performance.
 
 ---
+
+## Research Grant
+
+### **RISE Undergraduate Student Research Grant**  
+**Bangladesh University of Engineering and Technology (BUET)**  
+Call ID: **S2024-01**,  Accepted ID: **S2024-01-070**
+
+- Awarded to final-year undergraduate students at BUET following a competitive proposal submission and selection process.  
+- Funded my thesis project on the optimization of wind turbine placement in offshore wind farms using machine learning.
+
+---
