@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: "dark"
-#search: true
+search: true
 
 
 # Build settings
@@ -46,9 +46,7 @@ include:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-head:
-  custom_css:
-    - "assets/custom.css"
+
 
 
 # Plugins (previously gems:)
@@ -59,6 +57,12 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+
+
+head:
+  custom_css:
+    - "assets/custom.css"
+
 
 author:
   name   : " Md. Ariful Islam"
