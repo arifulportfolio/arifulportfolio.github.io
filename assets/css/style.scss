@@ -2,17 +2,16 @@
 ---
 @import "{{ site.theme }}";
 
-// Your custom styles go here
-h1 {
-  color: #ff0000;
-}
-
-
+/*
+  ========================================
+  Custom styles for the portfolio
+  ========================================
+*/
 
 /* Apply Times New Roman font to the entire website */
 body {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 8px; /* Set body font size to 12px */
+    font-size: 16px; /* A standard, readable font size */
 }
 
 /* Adjust headings to keep a clean look */
@@ -21,10 +20,15 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+/* Add custom styles for headings */
+h1 {
+  color: #ff0000;
+}
+
 /* Specific adjustments to paragraph spacing and line height */
 p {
-    line-height: 1.6; /* Make text more readable with proper spacing */
-    margin-bottom: 10px; /* Add space after each paragraph */
+    line-height: 1.6; /* Makes text more readable with proper spacing */
+    margin-bottom: 10px; /* Adds space after each paragraph */
 }
 
 /* Add some margin to the page content for spacing */
