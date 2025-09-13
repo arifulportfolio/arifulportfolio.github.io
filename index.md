@@ -14,5 +14,3 @@ I possess a solid foundation in thermal-fluid sciences and have hands-on experti
 Beyond my academic pursuits, I am an avid enthusiast of cricket and badminton. I’ve had the privilege of leading teams to victories as the captain in both the University Hall Cricket Tournament and the Departmental Cricket Tournament. Additionally, I have a passion for mobile photography, where I capture candid moments and explore new perspectives. In my downtime, I enjoy watching talk shows on a range of global topics, which broadens my understanding and provides fresh inspiration.
 
 These activities not only keep me grounded but also complement my academic and professional journey, helping me maintain balance and stay motivated.
-
-
