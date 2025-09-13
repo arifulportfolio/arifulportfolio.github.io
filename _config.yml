@@ -61,13 +61,13 @@ plugins:
 
 
 author:
-  name   : " Md. Ariful Islam"
-  avatar : "/assets/images/arif.jpg"
-  bio    : "Prospective PhD Student."
+  name: "Md. Ariful Islam"
+  avatar: "/assets/images/arif.jpg"
+  bio: "Prospective PhD Student."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://arifulportfolio.github.io" # Add your personal website link
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:arif.buet19@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/md-ariful-islam01/"
@@ -77,15 +77,20 @@ author:
 
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:arif.buet19@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/md-ariful-islam01/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://arifulportfolio.github.io" 
     - label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Md-Ariful-Islam-55"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/arifulportfolio"
+   
+
 
 defaults:
 
