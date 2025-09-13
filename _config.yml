@@ -61,7 +61,7 @@ plugins:
 
 head:
   custom_css:
-    - "assets/custom.css"
+    - "_site/assets/custom.css"
 
 
 author:
