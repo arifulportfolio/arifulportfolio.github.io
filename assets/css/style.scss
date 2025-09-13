@@ -1,3 +1,14 @@
+---
+---
+@import "{{ site.theme }}";
+
+// Your custom styles go here
+h1 {
+  color: #ff0000;
+}
+
+
+
 /* Apply Times New Roman font to the entire website */
 body {
     font-family: 'Times New Roman', Times, serif;
