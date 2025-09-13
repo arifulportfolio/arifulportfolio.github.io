@@ -59,10 +59,6 @@ plugins:
   - jekyll-include-cache
 
 
-head:
-  custom_css:
-    - "/assets/css/style.scss"
-
 
 author:
   name   : " Md. Ariful Islam"
