@@ -74,6 +74,9 @@ author:
     - label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Md-Ariful-Islam-55"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"  # You can adjust the icon if preferred
+      url: "https://scholar.google.com/citations?user=tTVVlP8AAAAJ&hl=en"
 
 footer:
   links:
@@ -83,12 +86,16 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/md-ariful-islam01/"
-    - label: "ResearchGate"
-      icon: "fab fa-fw fa-researchgate"
-      url: "https://www.researchgate.net/profile/Md-Ariful-Islam-55"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/arifulportfolio"
+    - label: "ResearchGate"
+      icon: "fab fa-fw fa-researchgate"
+      url: "https://www.researchgate.net/profile/Md-Ariful-Islam-55"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"  # Same icon as for author
+      url: "https://scholar.google.com/citations?user=tTVVlP8AAAAJ&hl=en"
+
    
 
 
