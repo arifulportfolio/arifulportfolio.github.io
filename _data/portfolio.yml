@@ -1,0 +1,194 @@
+# ------------------------------------------------------------------
+# All site content lives here. Edit this file to update the website.
+# To add a GIF or plot to a research card: put the file in
+# assets/media/ and set media: on that card (e.g. /assets/media/wake.gif).
+# ------------------------------------------------------------------
+
+name: "Md Ariful Islam"
+short_name: "Ariful"
+role: "PhD Student · Aerospace Engineering · Iowa State University"
+tagline: "I study how air, heat, and loads move through mechanical systems, using wind tunnel experiments, flow diagnostics, simulation, and data-driven models."
+location: "Ames, Iowa, USA"
+photo: "/assets/images/arif.jpg"
+email: "arif.buet19@gmail.com"
+open_to: "Open to industry, national lab, and research roles in thermal-fluids, test engineering, and data-driven design."
+
+links:
+  - { label: "LinkedIn", icon: "fa-brands fa-linkedin", url: "https://www.linkedin.com/in/md-ariful-islam01/" }
+  - { label: "Google Scholar", icon: "fa-solid fa-graduation-cap", url: "https://scholar.google.com/citations?user=tTVVlP8AAAAJ&hl=en" }
+  - { label: "ResearchGate", icon: "fa-brands fa-researchgate", url: "https://www.researchgate.net/profile/Md-Ariful-Islam-55" }
+  - { label: "GitHub", icon: "fa-brands fa-github", url: "https://github.com/arifulportfolio" }
+  - { label: "Email", icon: "fa-solid fa-envelope", url: "mailto:arif.buet19@gmail.com" }
+
+labs: "Advanced Flow Diagnostics & Experimental Aerodynamics Lab · Aircraft Icing Physics & Anti-/De-Icing Technology Laboratory"
+
+stats:
+  - { value: "2", label: "Publications" }
+  - { value: "4", label: "Research projects" }
+  - { value: "6+", label: "Years teaching" }
+
+capabilities:
+  - { icon: "fa-solid fa-wind", title: "Wind Tunnel Testing", text: "Test rigs, speed control, design of experiments, and multi-variable test campaigns." }
+  - { icon: "fa-solid fa-braille", title: "Flow Diagnostics", text: "Mean and phase-locked PIV, high-speed imaging, LaVision DaVis, Tecplot." }
+  - { icon: "fa-solid fa-gauge-high", title: "Test & Measurement", text: "Thrust, torque, and power acquisition; Instron load frames; torsion and combined loading." }
+  - { icon: "fa-solid fa-fire", title: "Heat Transfer & CFD", text: "ANSYS Fluent thermal-fluid simulation and ABAQUS structural analysis." }
+  - { icon: "fa-solid fa-brain", title: "Data-Driven Modeling", text: "Physics-guided machine learning, surrogate models, genetic algorithms." }
+  - { icon: "fa-solid fa-cube", title: "Design & Prototyping", text: "AutoCAD, Rhinoceros 3D, Maxsurf, structured-light 3D scanning, 3D printing." }
+
+news:
+  - { date: "Fall 2026", text: "Teaching Assistant for <b>EM 3270: Mechanics of Materials Laboratory</b> at Iowa State." }
+  - { date: "Jan 2026", text: "Started my <b>PhD in Aerospace Engineering</b> at Iowa State University." }
+  - { date: "Dec 2025", text: "Presented <b>data-driven hydrostatic prediction for early-stage ship design</b> at ICME 2025, BUET." }
+  - { date: "Mar 2025", text: "Paper on <b>offshore wind farm potential near Saint Martin, Bangladesh</b> published in the Asian Journal of Engineering and Technology." }
+  - { date: "Mar 2025", text: "Graduated with a <b>B.Sc. in Naval Architecture & Marine Engineering</b> from BUET." }
+  - { date: "2024", text: "Awarded the competitive <b>RISE Undergraduate Student Research Grant</b> at BUET." }
+
+research:
+  - id: isu
+    title: "Experimental Aerodynamics & Data-Driven Modeling of Rotating Systems"
+    org: "Iowa State University"
+    period: "Jan 2026 – Present"
+    status: "Current"
+    icon: "fa-solid fa-fan"
+    media: ""          # e.g. /assets/media/propeller-wake.gif
+    media_caption: ""
+    summary: "Wind tunnel experiments on rotating propeller systems combined with flow-field measurement and physics-guided machine learning."
+    points:
+      - "Build and operate wind tunnel test setups for rotating propellers: test stands, speed control, data acquisition."
+      - "Design test matrices with design of experiments and run multi-variable test campaigns."
+      - "Measure flow fields with mean and phase-locked PIV; process data in LaVision DaVis and Tecplot."
+      - "Reverse-engineer complex surface geometries with 3D scanning and 3D printing for repeatable testing."
+      - "Develop physics-guided machine learning models from experimental data."
+    tags: ["Wind Tunnel", "PIV", "DoE", "3D Scanning", "Machine Learning"]
+
+  - id: wind
+    title: "Offshore Wind Farm Layout Optimization"
+    org: "BUET · RISE-funded undergraduate thesis"
+    period: "Mar 2024 – Feb 2025"
+    status: "Completed"
+    icon: "fa-solid fa-wind"
+    media: ""
+    media_caption: ""
+    summary: "Statistical wind-resource assessment near Saint Martin, Bangladesh, and wake-aware turbine placement with a genetic algorithm."
+    points:
+      - "Assessed offshore wind farm potential using statistical analysis of wind data."
+      - "Optimized turbine placement with a wake-aware genetic algorithm in Python."
+      - "Site assessment published in the Asian Journal of Engineering and Technology (2025)."
+    tags: ["Wind Energy", "Genetic Algorithm", "Python", "Statistics"]
+    link: { label: "Paper", url: "https://doi.org/10.24203/acaphe94" }
+
+  - id: hydro
+    title: "Data-Driven Hydrostatic Prediction for Early-Stage Ship Design"
+    org: "The Draft Lab · BUET"
+    period: "Apr 2025 – Aug 2025"
+    status: "Completed"
+    icon: "fa-solid fa-ship"
+    media: ""
+    media_caption: ""
+    summary: "Machine-learning surrogates that replace manual hydrostatic calculations, trained on an automatically generated synthetic hull dataset."
+    points:
+      - "Generated a synthetic hull dataset with Maxsurf parametric transformation."
+      - "Automated hydrostatic calculations through MATLAB–Maxsurf batch analysis."
+      - "Selected the best surrogate model through multi-metric global scoring; presented at ICME 2025."
+    tags: ["Surrogate Modeling", "MATLAB", "Maxsurf", "Machine Learning"]
+    link: { label: "The Draft Lab", url: "https://thedraftlab.github.io/" }
+
+  - id: tanker
+    title: "Design of a 1,700-Tonne Inland Oil Tanker"
+    org: "BUET · Undergraduate design project"
+    period: "Nov 2022 – Nov 2023"
+    status: "Completed"
+    icon: "fa-solid fa-anchor"
+    media: ""
+    media_caption: ""
+    summary: "Complete vessel design from owner requirements through hull form, stability, resistance, and propeller cavitation checks."
+    points:
+      - "Developed the hull form in Rhinoceros 3D."
+      - "Performed hydrostatic and stability analysis in Maxsurf."
+      - "Carried out resistance prediction and propeller cavitation assessment."
+    tags: ["Ship Design", "Rhinoceros 3D", "Maxsurf"]
+
+# Research media gallery (GIFs, plots, photos). Leave empty to hide the section.
+# - { file: "/assets/media/piv-wake.gif", caption: "Phase-locked PIV of a propeller wake" }
+gallery: []
+
+publications:
+  - type: "Journal"
+    year: 2025
+    authors: "<b>Md. Ariful Islam</b>, Shanto Naha, Jiaur Rahman, Md. Shahidul Islam"
+    title: "Assessment of Offshore Wind Farm Potential Near Saint Martin, Bangladesh, Using Statistical Data Analysis"
+    venue: "Asian Journal of Engineering and Technology, 13(1), 2025"
+    links:
+      - { label: "DOI", url: "https://doi.org/10.24203/acaphe94" }
+  - type: "Conference"
+    year: 2025
+    authors: "<b>Md. Ariful Islam</b>, Abrar Jahin, Imon Ghosh Pranta, Md. Shariful Islam, Rounak Saha Niloy"
+    title: "Data-Driven Estimation of Hydrostatic Parameters in Early-Stage Ship Design"
+    venue: "15th International Conference on Mechanical Engineering (ICME 2025), BUET, Dhaka, Dec 17–18, 2025"
+    links: []
+
+experience:
+  - title: "Graduate Research Assistant"
+    org: "Iowa State University"
+    place: "Ames, Iowa"
+    period: "Jan 2026 – Present"
+    note: "Advanced Flow Diagnostics & Experimental Aerodynamics Lab · Aircraft Icing Physics & Anti-/De-Icing Technology Laboratory"
+    points:
+      - "Build and operate wind tunnel test setups for rotating propeller systems, including test stands, speed control, and data acquisition."
+      - "Design test matrices using design of experiments and run multi-variable test campaigns."
+      - "Measure flow fields with mean and phase-locked PIV; process data in LaVision DaVis and Tecplot."
+      - "Reverse-engineer complex surface geometries using 3D scanning and 3D printing."
+      - "Develop physics-guided machine learning models from experimental data."
+  - title: "Graduate Teaching Assistant"
+    org: "Iowa State University"
+    place: "Ames, Iowa"
+    period: "Jan 2026 – Present"
+    note: "EM 3270: Mechanics of Materials Laboratory"
+    points:
+      - "Lead four laboratory sections (up to 13 students each) through hands-on mechanical testing of materials and structures."
+      - "Supervise experiments on Instron universal test stations, a TecQuipment test frame, and torsion, combined-loading, and pressure-vessel setups."
+      - "Enforce lab safety protocols and coordinate group-based laboratory work."
+      - "Grade prelabs, lab reports, and worksheets, and provide technical feedback."
+  - title: "Physics Instructor"
+    org: "UDVASH Academic & University Admission Coaching Center"
+    place: "Dhaka, Bangladesh"
+    period: "Jan 2020 – Dec 2025"
+    note: ""
+    points:
+      - "Taught physics to university admission candidates."
+  - title: "Industrial Trainee"
+    org: "Chittagong Dry Dock Ltd (Bangladesh Navy)"
+    place: "Chattogram, Bangladesh"
+    period: "May 2023 – Jun 2023"
+    note: ""
+    points:
+      - "Observed welding, fabrication, dry-docking, and ship launching operations in a production shipyard."
+      - "Learned hull surface preparation, coating, electrical maintenance, and quality control processes."
+
+education:
+  - degree: "Ph.D. in Aerospace Engineering"
+    school: "Iowa State University"
+    place: "Ames, Iowa, USA"
+    period: "Jan 2026 – Present"
+    detail: "Advanced Flow Diagnostics & Experimental Aerodynamics Lab · Aircraft Icing Physics & Anti-/De-Icing Technology Laboratory"
+  - degree: "B.Sc. in Naval Architecture & Marine Engineering"
+    school: "Bangladesh University of Engineering and Technology (BUET)"
+    place: "Dhaka, Bangladesh"
+    period: "Feb 2020 – Mar 2025"
+    detail: "CGPA 3.68 / 4.00"
+
+skills:
+  - { group: "Test & Measurement", items: ["Wind tunnel testing", "Thrust / torque / power measurement", "PIV & phase-locked PIV", "High-speed imaging", "Instron mechanical testing", "3D scanning", "3D printing"] }
+  - { group: "Simulation & Design", items: ["ANSYS Fluent", "ABAQUS", "Maxsurf", "AutoCAD", "Rhinoceros 3D"] }
+  - { group: "Programming", items: ["Python", "MATLAB", "C++", "Fortran"] }
+  - { group: "Data & Optimization", items: ["Design of experiments", "Machine learning", "Surrogate modeling", "Genetic algorithms", "Statistical analysis"] }
+  - { group: "Processing & Visualization", items: ["LaVision DaVis", "Tecplot", "MATLAB", "LaTeX"] }
+
+honors:
+  - { title: "RISE Undergraduate Student Research Grant", org: "BUET", year: "2024" }
+  - { title: "University Merit Scholarship", org: "BUET", year: "" }
+  - { title: "Education Board Technical Scholarship", org: "BUET", year: "" }
+
+volunteering:
+  - "Volunteer, 7th National Math Olympiad (2020)"
+  - "Volunteer, BADHAN BUET Zone (voluntary blood donor organization)"
