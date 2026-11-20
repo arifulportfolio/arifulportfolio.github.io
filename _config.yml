@@ -13,13 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "PORTFOLIO"
+title: "Md Ariful Islam"
+subtitle: "Experimental Fluid Mechanics & Heat Transfer"
 email: "arif.buet19@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  Prospective PhD student and researcher.
-  Focused on Computational Fluid Dynamics, Renewable Energy, Heat Transfer, Optimization, and Machine Learning.
+  Aerospace Engineering PhD student at Iowa State University working on experimental fluid mechanics,
+  heat transfer, test and measurement, and data-driven modeling.
 twitter_username: username
-github_username: username
+github_username: arifulportfolio
 minimal_mistakes_skin: "neon"
 #search: true
 
@@ -30,7 +31,7 @@ remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -63,12 +64,16 @@ plugins:
 author:
   name: "Md. Ariful Islam"
   avatar: "/assets/images/arif.jpg"
-  bio: ""
+  bio: "PhD Student, Aerospace Engineering, Iowa State University"
+  location: "Ames, Iowa, USA"
   links:
 
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/md-ariful-islam01/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/arifulportfolio"
     - label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Md-Ariful-Islam-55"
