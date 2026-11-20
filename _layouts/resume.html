@@ -1,0 +1,63 @@
+---
+layout: default
+---
+{% assign p = site.data.portfolio %}
+<section class="page-hero">
+  <div class="wrap">
+    <span class="kicker">Resume</span>
+    <h1>Experience & skills</h1>
+    <p class="lead">{{ p.open_to }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap two-col two-col--wide">
+    <div>
+      <h2 class="h-icon"><i class="fa-solid fa-briefcase"></i> Experience</h2>
+      <ul class="xp">
+        {% for x in p.experience %}
+        <li class="reveal">
+          <div class="xp__head">
+            <h3>{{ x.title }}</h3>
+            <span class="muted small">{{ x.period }}</span>
+          </div>
+          <div class="xp__org">{{ x.org }} · <span class="muted">{{ x.place }}</span></div>
+          {% if x.note != "" %}<div class="muted small">{{ x.note }}</div>{% endif %}
+          <ul class="ticks">{% for pt in x.points %}<li>{{ pt }}</li>{% endfor %}</ul>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <h2 class="h-icon"><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+      <ul class="xp">
+        {% for e in p.education %}
+        <li class="reveal">
+          <div class="xp__head"><h3>{{ e.degree }}</h3><span class="muted small">{{ e.period }}</span></div>
+          <div class="xp__org">{{ e.school }} · <span class="muted">{{ e.place }}</span></div>
+          <div class="muted small">{{ e.detail }}</div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <aside class="side">
+      <div class="card">
+        <h3 class="h-icon"><i class="fa-solid fa-screwdriver-wrench"></i> Skills</h3>
+        {% for s in p.skills %}
+        <div class="skill">
+          <div class="skill__g">{{ s.group }}</div>
+          <div class="chips">{% for i in s.items %}<span class="chip">{{ i }}</span>{% endfor %}</div>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="card">
+        <h3 class="h-icon"><i class="fa-solid fa-trophy"></i> Honors & Awards</h3>
+        <ul class="ticks">{% for h in p.honors %}<li><b>{{ h.title }}</b>, {{ h.org }}{% if h.year != "" %} ({{ h.year }}){% endif %}</li>{% endfor %}</ul>
+      </div>
+      <div class="card">
+        <h3 class="h-icon"><i class="fa-solid fa-hand-holding-heart"></i> Volunteering</h3>
+        <ul class="ticks">{% for v in p.volunteering %}<li>{{ v }}</li>{% endfor %}</ul>
+      </div>
+    </aside>
+  </div>
+</section>
