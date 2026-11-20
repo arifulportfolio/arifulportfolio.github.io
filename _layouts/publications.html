@@ -1,0 +1,31 @@
+---
+layout: default
+---
+{% assign p = site.data.portfolio %}
+<section class="page-hero">
+  <div class="wrap">
+    <span class="kicker">Publications</span>
+    <h1>Papers & presentations</h1>
+    <p class="lead">Peer-reviewed journal and conference work.</p>
+    <div class="hero__cta">
+      {% for l in p.links %}{% if l.label == "Google Scholar" or l.label == "ResearchGate" %}<a class="btn btn--ghost btn--sm" href="{{ l.url }}"><i class="{{ l.icon }}"></i> {{ l.label }}</a>{% endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap stack">
+    {% for pub in p.publications %}
+    <div class="card pub pub--row reveal">
+      <div class="pub__num">{{ forloop.index }}</div>
+      <div>
+        <span class="badge badge--{{ pub.type | downcase }}">{{ pub.type }} · {{ pub.year }}</span>
+        <h3>{{ pub.title }}</h3>
+        <p class="small">{{ pub.authors }}</p>
+        <p class="muted small"><i>{{ pub.venue }}</i></p>
+        {% for l in pub.links %}<a class="btn btn--ghost btn--sm" href="{{ l.url }}">{{ l.label }} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>{% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
