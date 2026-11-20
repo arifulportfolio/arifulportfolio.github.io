@@ -1,0 +1,105 @@
+---
+layout: default
+---
+{% assign p = site.data.portfolio %}
+<section class="hero">
+  <canvas id="flow" class="hero__canvas" aria-hidden="true"></canvas>
+  <div class="wrap hero__inner">
+    <div class="hero__text">
+      <div class="eyebrow"><i class="fa-solid fa-location-dot"></i> {{ p.location }}</div>
+      <h1>Hi, I'm {{ p.short_name }}.</h1>
+      <p class="hero__role">{{ p.role }}</p>
+      <p class="hero__tag">{{ p.tagline }}</p>
+      <div class="hero__cta">
+        <a class="btn" href="{{ '/research/' | relative_url }}"><i class="fa-solid fa-flask"></i> View research</a>
+        <a class="btn btn--ghost" href="{{ '/resume/' | relative_url }}"><i class="fa-solid fa-file-lines"></i> Resume</a>
+      </div>
+      <div class="icons hero__icons">
+        {% for l in p.links %}<a href="{{ l.url }}" aria-label="{{ l.label }}" title="{{ l.label }}"><i class="{{ l.icon }}"></i></a>{% endfor %}
+      </div>
+    </div>
+    <div class="hero__photo">
+      <div class="ring"><img src="{{ p.photo | relative_url }}" alt="{{ p.name }}"></div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="stats">
+      {% for s in p.stats %}<div class="stat"><div class="stat__v">{{ s.value }}</div><div class="stat__l">{{ s.label }}</div></div>{% endfor %}
+    </div>
+    <div class="legend" aria-hidden="true"><span>Tracer speed |U|/U<sub>&infin;</sub></span><span>0</span><span class="legend__bar"></span><span>2</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section__head"><span class="kicker">What I do</span><h2>Experiments, simulation, and data, working together</h2></div>
+    <div class="grid grid--3">
+      {% for c in p.capabilities %}
+      <div class="card cap reveal">
+        <div class="cap__icon"><i class="{{ c.icon }}"></i></div>
+        <h3>{{ c.title }}</h3>
+        <p>{{ c.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="wrap">
+    <div class="section__head row-between">
+      <div><span class="kicker">Research</span><h2>Selected work</h2></div>
+      <a class="link-arrow" href="{{ '/research/' | relative_url }}">All research <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div class="grid grid--2">
+      {% for r in p.research limit: 4 %}
+      <a class="card proj reveal" href="{{ '/research/' | relative_url }}#{{ r.id }}">
+        <div class="proj__media">
+          {% if r.media and r.media != "" %}<img src="{{ r.media | relative_url }}" alt="{{ r.title }}" loading="lazy">
+          {% else %}<div class="proj__ph"><i class="{{ r.icon }}"></i></div>{% endif %}
+          <span class="badge {% if r.status == 'Current' %}badge--live{% endif %}">{{ r.status }}</span>
+        </div>
+        <div class="proj__body">
+          <div class="muted small">{{ r.org }} · {{ r.period }}</div>
+          <h3>{{ r.title }}</h3>
+          <p>{{ r.summary }}</p>
+          <div class="chips">{% for t in r.tags %}<span class="chip">{{ t }}</span>{% endfor %}</div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap two-col">
+    <div>
+      <div class="section__head"><span class="kicker">News</span><h2>Latest updates</h2></div>
+      <ul class="timeline">
+        {% for n in p.news %}<li class="reveal"><span class="timeline__date">{{ n.date }}</span><span>{{ n.text }}</span></li>{% endfor %}
+      </ul>
+    </div>
+    <div>
+      <div class="section__head"><span class="kicker">Publications</span><h2>Recent papers</h2></div>
+      {% for pub in p.publications %}
+      <div class="card pub reveal">
+        <span class="badge badge--{{ pub.type | downcase }}">{{ pub.type }} · {{ pub.year }}</span>
+        <h3>{{ pub.title }}</h3>
+        <p class="muted small">{{ pub.venue }}</p>
+        {% for l in pub.links %}<a class="link-arrow small" href="{{ l.url }}">{{ l.label }} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>{% endfor %}
+      </div>
+      {% endfor %}
+      <a class="link-arrow" href="{{ '/publications/' | relative_url }}">All publications <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<section class="section cta">
+  <div class="wrap cta__inner card">
+    <div>
+      <h2>Let's work together</h2>
+      <p>{{ p.open_to }}</p>
+    </div>
+    <a class="btn" href="mailto:{{ p.email }}"><i class="fa-solid fa-paper-plane"></i> {{ p.email }}</a>
+  </div>
+</section>
