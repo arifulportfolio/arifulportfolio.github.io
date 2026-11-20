@@ -1,0 +1,21 @@
+---
+layout: default
+---
+{% assign p = site.data.portfolio %}
+<section class="page-hero">
+  <div class="wrap about">
+    <div class="ring ring--sm"><img src="{{ p.photo | relative_url }}" alt="{{ p.name }}"></div>
+    <div>
+      <span class="kicker">About me</span>
+      <h1>{{ p.name }}</h1>
+      <p class="lead">{{ p.role }}</p>
+      <div class="icons">{% for l in p.links %}<a href="{{ l.url }}" aria-label="{{ l.label }}" title="{{ l.label }}"><i class="{{ l.icon }}"></i></a>{% endfor %}</div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap prose">
+    {{ content }}
+  </div>
+</section>
