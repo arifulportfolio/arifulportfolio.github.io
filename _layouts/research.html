@@ -1,0 +1,65 @@
+---
+layout: default
+---
+{% assign p = site.data.portfolio %}
+<section class="page-hero">
+  <div class="wrap">
+    <span class="kicker">Research</span>
+    <h1>From wind tunnels to data-driven models</h1>
+    <p class="lead">My current PhD work at Iowa State and earlier projects at BUET.</p>
+    <p class="muted small"><i class="fa-solid fa-flask"></i> {{ p.labs }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap stack">
+    {% for r in p.research %}
+    <article id="{{ r.id }}" class="card feature reveal {% cycle '', 'feature--flip' %}">
+      <div class="feature__media">
+        {% if r.media and r.media != "" %}
+          <img src="{{ r.media | relative_url }}" alt="{{ r.title }}" loading="lazy">
+          {% if r.media_caption != "" %}<div class="caption">{{ r.media_caption }}</div>{% endif %}
+        {% else %}<div class="proj__ph proj__ph--lg"><i class="{{ r.icon }}"></i></div>{% endif %}
+      </div>
+      <div class="feature__body">
+        <div class="row-between">
+          <span class="badge {% if r.status == 'Current' %}badge--live{% endif %}">{{ r.status }}</span>
+          <span class="muted small">{{ r.period }}</span>
+        </div>
+        <h2>{{ r.title }}</h2>
+        <div class="muted">{{ r.org }}</div>
+        <p>{{ r.summary }}</p>
+        <ul class="ticks">{% for pt in r.points %}<li>{{ pt }}</li>{% endfor %}</ul>
+        <div class="chips">{% for t in r.tags %}<span class="chip">{{ t }}</span>{% endfor %}</div>
+        {% if r.link %}<a class="link-arrow" href="{{ r.link.url }}">{{ r.link.label }} <i class="fa-solid fa-arrow-up-right-from-square"></i></a>{% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+{% if p.gallery and p.gallery.size > 0 %}
+<section class="section section--alt">
+  <div class="wrap">
+    <div class="section__head"><span class="kicker">Gallery</span><h2>Research in motion</h2></div>
+    <div class="gallery">
+      {% for g in p.gallery %}
+      <figure class="card reveal"><img src="{{ g.file | relative_url }}" alt="{{ g.caption }}" loading="lazy"><figcaption>{{ g.caption }}</figcaption></figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="section section--alt">
+  <div class="wrap">
+    <div class="card grant reveal">
+      <div class="cap__icon"><i class="fa-solid fa-award"></i></div>
+      <div>
+        <h3>RISE Undergraduate Student Research Grant (2024)</h3>
+        <p class="muted">Bangladesh University of Engineering and Technology (BUET) · Call ID S2024-01 · Accepted ID S2024-01-070</p>
+        <p>Competitive grant awarded to final-year undergraduate students at BUET after proposal evaluation and selection. It funded my thesis on offshore wind farm layout optimization.</p>
+      </div>
+    </div>
+  </div>
+</section>
